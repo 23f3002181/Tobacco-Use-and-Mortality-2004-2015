@@ -1,48 +1,56 @@
-📌 Project Overview
+🩺 Tobacco Use and Mortality (2004–2015)
 
-The Tobacco Use and Mortality (2004–2015) project is a machine learning–based data science application that analyzes the impact of tobacco consumption on mortality rates. The project uses multiple healthcare datasets related to smoking prevalence, hospital admissions, medical prescriptions, and fatalities to predict mortality risk and identify key contributing factors.
 
-The objective of this project is to apply supervised machine learning techniques to uncover patterns in tobacco usage and evaluate their influence on public health outcomes.
 
-🎯 Project Objectives
 
-Analyze tobacco usage trends over time
 
-Understand the relationship between smoking and mortality
+
+
+
+Machine Learning Project
+
+📌 Overview
+
+The Tobacco Use and Mortality (2004–2015) project is a data science and machine learning application that examines the relationship between tobacco consumption and mortality rates. Using multiple healthcare datasets, the project applies supervised learning techniques to predict mortality risk and identify key factors contributing to smoking-related deaths.
+
+This project demonstrates an end-to-end machine learning workflow, including data preprocessing, exploratory data analysis, model building, evaluation, and interpretation.
+
+
+❓ Problem Statement
+
+To predict mortality risk based on tobacco usage patterns and associated healthcare indicators using machine learning models.
+
+🎯 Objectives
+
+Analyze tobacco consumption trends over time
+
+Study the impact of smoking on mortality
 
 Perform exploratory data analysis (EDA)
 
-Build and evaluate machine learning models
+Build and compare classification models
 
-Identify key features influencing mortality
+Identify important predictors of mortality
 
-Support public health insights through data-driven analysis
+Support public health insights using data-driven methods
 
-🗂️ Dataset Description
 
-The project uses the following datasets:
+🗂️ Datasets
 
-Dataset Name	Description
-smokers.csv	Smoking prevalence data
-admissions.csv	Hospital admissions related to tobacco use
-prescriptions.csv	Medical prescriptions for smoking-related diseases
-fatalities.csv	Mortality data caused by tobacco use
-metrics.csv	Additional health and system metrics
+The following datasets are used in this project:
 
-All datasets are merged using a common attribute (Year) to create a unified dataset for analysis.
+<img width="758" height="278" alt="image" src="https://github.com/user-attachments/assets/b19561d0-3cd6-49c4-800d-2f83816d49d1" />
 
-🛠️ Tools and Technologies
-Programming Language
 
-Python
+All datasets are merged using the Year column to form a unified dataset.
 
-Development Tools
+🛠️ Tech Stack
 
-Jupyter Notebook
+Language: Python
 
-VS Code
+IDE: Jupyter Notebook, VS Code
 
-Libraries Used
+Libraries:
 
 pandas
 
@@ -54,35 +62,35 @@ seaborn
 
 scikit-learn
 
+
 ⚙️ Project Workflow
-
-Data Collection and Loading
-
-Data Cleaning and Preprocessing
-
+Data Collection
+      ↓
+Data Cleaning & Preprocessing
+      ↓
 Exploratory Data Analysis (EDA)
-
-Feature Engineering
-
+      ↓
+Feature Engineering & Scaling
+      ↓
 Train–Test Split
-
+      ↓
 Model Training
-
+      ↓
 Model Evaluation
-
-Feature Importance Analysis
-
+      ↓
 Result Interpretation
 
-🤖 Machine Learning Models Used
+
+🤖 Machine Learning Models
 
 Logistic Regression
 
 Random Forest Classifier
 
-The problem is treated as a binary classification task, where the target variable is mortality risk.
+The task is formulated as a binary classification problem, where mortality risk is predicted.
 
-📊 Model Evaluation Metrics
+
+📊 Evaluation Metrics
 
 Accuracy
 
@@ -92,48 +100,49 @@ Recall
 
 F1-Score
 
-Random Forest Classifier showed better overall performance compared to Logistic Regression.
+The Random Forest Classifier achieved superior performance compared to Logistic Regression.
 
-📈 Results Summary
 
-Tobacco usage is strongly correlated with mortality rates
+📈 Results
+
+Strong correlation found between tobacco use and mortality
 
 Hospital admissions and smoking prevalence are key predictors
 
-Random Forest achieved higher accuracy and better generalization
+Random Forest model demonstrated better accuracy and robustness
+
+
+🧠 Conclusion
+
+This project confirms that machine learning techniques can effectively analyze and predict mortality related to tobacco use. The results emphasize the severe impact of smoking on public health and provide insights that can assist healthcare planning and policy formulation.
+
 
 🔮 Future Enhancements
 
-Integration of SHAP/LIME for explainability
+Add explainable AI techniques (SHAP, LIME)
 
-Deployment using Flask or Streamlit
+Deploy the model using Flask or Streamlit
 
-Inclusion of demographic and lifestyle data
+Integrate demographic and lifestyle features
 
-Real-time prediction system
+Use real-time or regional healthcare data
+
 
 ⚖️ Ethical Considerations
 
-No personal or identifiable health data was used
+No personal or identifiable data was used
 
-All datasets are anonymized and aggregated
+All datasets are aggregated and anonymized
 
-The project complies with ethical data usage practices
+Ethical standards for health data analysis were maintained
 
-▶️ How to Run the Project
+
+▶️ How to Run
 
 Install required Python libraries
 
-Open Jupyter Notebook
-
 Place all CSV files in the project directory
 
-Run the notebook cell by cell
+Open the Jupyter Notebook
 
-📚 References
-
-World Health Organization (WHO)
-
-National Health Service (NHS)
-
-Centers for Disease Control and Prevention (CDC)
+Run all cells sequentially
